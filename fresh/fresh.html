@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+
+        .banner_top {
+            height: 5vh;
+            width: 100%;
+            background-color: #c4c9b2;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .banner_top p {
+            font-family: 'Dancing Script', cursive;
+            font-size: 20px;
+            text-align: center;
+            padding: 5px 10px;
+        }
+
+
+
+        .banner_bot {
+            width: 100%;
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .banner_botL {
+            width: 35%;
+            height: 60%;
+            background-image: url("img/工作室logo.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .banner_botR {
+            width: 24%;
+            line-height: 2;
+            font-size: 25px;
+            letter-spacing: 4px;
+
+        }
+
+        .navborder {
+            border-top: 3px solid #dfe2d1;
+            border-bottom: 3px solid #dfe2d1;
+        }
+
+        .nav_list {
+            color: #8f7d73;
+        }
+
+        .nav_list ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            margin-top: unset;
+            margin-bottom: 0;
+        }
+
+        .nav_list ul li {
+            color: #8f7d73;
+            padding: 5px;
+
+        }
+
+        .photo_content {
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .photo1 {
+            width: 30%;
+            height: 100%;
+            background-image: url("img/圖1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        .photo2 {
+            width: 30%;
+            height: 100%;
+            background-image: url("img/圖2.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin: 0 10px;
+
+        }
+
+        .photo3 {
+            width: 30%;
+            height: 100%;
+            background-image: url("img/圖3.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        .mask {
+            opacity: 0.5;
+        }
+
+        mask:hover {
+            opacity: 1;
+        }
+
+        .witle20 {
+            width: 100%;
+            height: 20vh;
+            background-color: white;
+        }
+
+        .witle50 {
+            width: 100%;
+            height: 40vh;
+        }
+
+        span {
+            opacity: 0;
+        }
+
+        .idea {
+            width: 100%;
+            height: 85vh;
+            background-image: url("img/BGimg.jpg");
+            background-size: cover;
+            display: flex;
+        }
+
+        .ideaL {
+
+            border: 2px solid #e9c79a;
+            writing-mode: vertical-lr;
+            padding: 15px;
+            border-radius: 20px;
+            font-size: 30px;
+            color: #75786f;
+            transform: translate(50%,-50%);
+        }
+
+        .ideaR {
+            width: 900px;
+            height: 300px;
+            font-size: 40px;
+            letter-spacing: 25px;
+            font-family: "微软雅黑";
+            color: #75786f;
+        }
+
+        .setting {
+            width: 100%;
+            height: 80vh;
+            background-color: #e2e2e2;
+        }
+
+        .setting_top {
+
+            position: relative;
+        }
+
+        .setting_topL {
+            width: 700px;
+            height: 500px;
+            background-image: url(img/美容床.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-70%, -40%);
+
+        }
+
+        .setting_topR {
+            border: 2px solid #e9c79a;
+            border-radius: 20px;
+            font-size: 25px;
+            color: #75786f;
+            writing-mode: vertical-lr;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="banner_top">
+        <p>Have</p>
+        <p>a</p>
+        <p>relaxing</p>
+        <p>space</p>
+    </div>
+    <div class="banner_bot">
+        <div class="banner_botL"></div>
+        <div class="banner_botR"><br>
+            <p>遠離都市<br>一間可以讓您深呼吸<br>釋放壓力的美容工作室</p>
+        </div>
+    </div>
+
+    <div class="navborder">
+        <div class="container">
+            <div class="nav_list">
+                <ul>
+                    <li>關於小清新</li>
+                    <li>服務項目</li>
+                    <li>美容大小事Q&A</li>
+                    <li>連絡我們</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="photo_content">
+        <div class="photo1 mask"></div>
+        <div class="photo2 mask"></div>
+        <div class="photo3 mask"></div>
+    </div>
+    <div class="witle20"></div>
+    <div class="idea">
+        <div class="container d-flex .justify-content-center">
+            <div class="ideaL">經營理念CONCEPT</div>
+            <div class="ideaR">強調專心,耐心,細心,用心為顧客提供服務讓顧客有一種"賓至如歸"的感受注重在服務過程中與顧客的情感交流,真正體現"以人為本"的經營理念</div>
+        </div>
+        <!-- <div class="setting">
+        <div class="setting_top">
+            <div class="setting_topL"></div>
+            <div class="setting_topR">環境介紹 <span>xx</span> CONDITION</div>
+        </div>
+        <div class="setting_bot">
+            <div class="setting_botL"></div>
+            <div class="setting_botR"></div>
+        </div>
+    </div> -->
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+        <script>
+
+        </script>
+</body>
+
+</html>
